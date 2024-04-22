@@ -1,14 +1,18 @@
-# Raspberry Pi Pico SN74HC595 LED example
+# Raspberry Pi Pico SN74HC595 LEDs
+
+Made as a learning project to get to know the SN74HC595 a little bit better.
+
+## Wiring
 
 ![Fritzing wiring diagram](/Pico-breadboard_fritzing.svg)
 
-Made as a learning project to get to know the SN74HC595 a little bit better.
+![Working demo](/real-life-demo.jpeg)
 
 ## Building
 
 ```sh
-git clone https://github.com/turtureanu/rpi-sn74hc595-leds.git
-cd rpi-sn74hc595-leds
+git clone https://github.com/turtureanu/pico-sn74hc595-leds.git
+cd pico-sn74hc595-leds
 cd src/sn74hc595-leds/build
 cmake ..
 make
