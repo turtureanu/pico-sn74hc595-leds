@@ -10,6 +10,15 @@ Made as a learning project to get to know the SN74HC595 a little bit better.
 
 ## Building
 
+For building the project you will also have to clone the `pico-sdk` and set it using the `PICO_SDK_PATH` enviromental variable.
+
+```
+git clone https://github.com/raspberrypi/pico-sdk.git
+export PICO_SDK_PATH=$(realpath pico-sdk)
+```
+
+Building the actual project can be done like this:
+
 ```sh
 git clone https://github.com/turtureanu/pico-sn74hc595-leds.git
 cd pico-sn74hc595-leds
